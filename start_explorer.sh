@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /www && npm start
