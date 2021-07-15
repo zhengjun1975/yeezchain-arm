@@ -1,6 +1,6 @@
 FROM aarch64/ubuntu:latest
 
-RUN apt update
+RUN apt-get -y update
 RUN apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 RUN apt -y install net-tools iputils-ping iproute2
 RUN apt -y install python3-pip
